@@ -1,0 +1,85 @@
+*,html{
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color:#333;
+  color: rgb(255, 241, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: 400;
+  padding: 15;
+  height: 100vh;
+}
+.container-keseluruhan{
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.judul{
+  color: #ffffffed;
+  background-color: #000000;  
+  text-align: center;
+}
+.judul1{
+  color: rgb(42, 81, 113) ;
+
+}
+.judul2 {
+  background-color: #333;
+  justify-content: right;
+}
+.navbar {
+  background-color: #333;
+  width: 100%;
+  height: 100px;
+}
+.ul-navbar {
+  height: 100px;
+  width:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.li-navbar {
+  background-color:black;
+  text-color: white;
+  border: 1px solid white;
+  background-color: ;
+  padding: 20px;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.li-navbar:hover {
+  background-color: #d90d0d;
+  transition: .3s ease-in-out;
+  border-radius: 9%;
+}
+.a-navbar {
+  color: white;
+  text-decoration-line: none;
+}
+
+.container-content {
+  background-color: rgb(10, 9, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px
+  height:500px
+  
+}
+.img1-content {
+  width: 300px;
+  height: ;
+  border: 10px solid#040404;
+  text-align: left;
+}
+.img2-content {
+  width: 300px;
+  height: ;
+  border: 10px solid#060606;
+}
+
