@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    background: url('bg3.gif') center/cover no-repeat; /* Add this line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+  
+  .container {
+    padding: 50px;
+    backdrop-filter: blur(40px);
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .container p{
+    color: #fff;
+    display: flexbox;
+  }
+  
+  .container span {
+    color: red;
+  }
+    
+  .container a{
+    color: #fff;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: ;
+  }
+  
+  label {
+
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    background:transparent;
+    border: 1px solid #ccc;
+    border: none;
+    border-bottom:2px solid rgb(255, 253, 253) ;
+
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
