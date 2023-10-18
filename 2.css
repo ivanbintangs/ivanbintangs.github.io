@@ -141,12 +141,12 @@
       justify-content: left;
       align-items: center;
       
-      }
+    }
 
-      .contents-item p {
-        font-size: 15px;
-        text-transform: capitalize;
-      }
+    .contents-item p {
+       font-size: 15px;
+       text-transform: capitalize;
+    }
       .search{
         display: flex;
         flex-direction: column;
