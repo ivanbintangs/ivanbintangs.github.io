@@ -16,7 +16,6 @@
 
 .copy-container b{
   font-family: "robotop",sans-serif;  font-size: 30px;
- 
   color:red
 }
 .copy-container b span{
@@ -58,7 +57,6 @@
   
   .search{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgb(82, 82, 225);
@@ -89,8 +87,8 @@
   }
 
   .perkumpulan{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: end;
 
  }
   
@@ -98,12 +96,13 @@ align-items: center;
     padding-bottom:0px ;
     margin: 10px;
     
+    
   }
 
   .contents-item {
     margin-bottom: 20px; /* Mengganti margin-right menjadi margin-bottom */
     float: left;
-    margin-right: 40px;
+    margin-right: 20px;
     align-items: center;
     padding-bottom: 1px;
     border-radius: 5px;
@@ -131,4 +130,54 @@ align-items: center;
     text-align: center; /* Mengubah menjadi pusat teks */
     align-items: center;
     text-transform: capitalize;
+  }
+  @media screen and (max-width: 788px) {
+    
+    .boruto{
+      width: 210px;
+      height: 230px;
+      padding: 5px;
+      text-align: center; 
+      justify-content: left;
+      align-items: center;
+      
+      }
+
+      .contents-item p {
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+      .search{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgb(82, 82, 225);
+        padding-bottom: 10px;
+        padding: 10px;
+    
+      }
+      .copy-container {
+        display: none;
+      }
+      .d-block.w-100{
+        width: 1000px;
+      }
+      .pencarian{
+        background-color: rgb(21, 18, 21);
+        padding: 10px 25px;
+        border-radius: 40px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        display: flex;
+     
+      }
+      .search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgb(82, 82, 225);
+        padding-bottom: none
+        
+    
+      }
   }
